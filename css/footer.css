@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#footer_wrap{width:100%;min-width:1280px;position:relative;background-color:#141312}
+
+.banner_wrap{width:100%;min-width:1280px;height:60px;position:relative;background-color:#2e2c2a}
+.banner_wrap .banner{width:1280px;height:60px;margin:0 auto}
+.banner .banner_list li{float:left;margin-right:60px;line-height:60px;opacity:0.5;transition:opacity 0.5s ease}
+.banner .banner_list li:last-child{margin-right:0}
+.banner .banner_list li:hover{opacity:1}
+
+.footer{width:1280px;margin:0 auto;position:relative;padding-top:60px}
+.footer .footer_logo{width:109px;height:41px;opacity:0.5;margin:60px 0}
+
+.footer .footer_box{margin-left:110px}
+.footer .footer_box .footer_title{font-size:18px;color:#83654c;font-weight:500;margin-bottom:20px}
+.footer .footer_box .customer{color:#999;font-size:18px;line-height:40px;font-weight:300;letter-spacing:1px}
+.footer .footer_box .customer dt{float:left}
+.footer .footer_box .customer dd{margin-left:100px}
+
+.sns_list li{float:left;margin-right:45px}
+.sns_list li:last-child{margin:0}
+.sns_list li a{background:url(../images/sns_icon.png) no-repeat;font-size:0;height:42px;display:block}
+
+.sns_list li:nth-of-type(1) a{background-position:0 0;width:23px}
+.sns_list li:nth-of-type(2) a{background-position:-59px 0;width:51px}
+.sns_list li:nth-of-type(3) a{background-position:-131px 0;width:41px}
+
+.footer .top_link{font-size:0;display:block;width:50px;height:50px;background-color:#555;border-radius:50%;position:relative;box-shadow:0px 2px 4px #111}
+.footer .top_link:after{content:'';border-top:2px solid #fff;border-right:2px solid #fff;position:absolute;top:20px;left:16px;width:15px;height:15px;transform:rotate(-45deg)}
+
+
+
+.footer_menu_wrap{width:100%;min-width:1280px;height:120px;position:relative;border-top:1px solid #444;margin-top:70px}
+.footer_menu{width:1280px;margin:0 auto;padding-top:30px}
+.footer_menu_list li{float:left;margin-right:50px;line-height:16px;position:relative}
+.footer_menu_list li a{color:#999;font-size:16px}
+.footer_menu_list li a:hover{color:#83654c}
+
+.footer_menu_list li:after{content:'';width:1px;height:16px;position:absolute;top:0;right:-26px;background-color:#999}
+
+.footer_menu_list li:last-child:after{width:0}
+
+.footer_menu .copy{color:#555;line-height:16px;font-size:16px}
+
+
+
+
