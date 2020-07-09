@@ -4,11 +4,12 @@
 @import url(header_sub.css);
 @import url(footer.css);
 
-#container_wrap{width:100%;min-width:1280px;position:relative}
+#container_wrap{width:100%;min-width:1280px;position:relative;overflow-x:hidden 
+ ;}
 
 /*visual*/
 
-.visual_wrap{width:100%;min-width:1280px;height:800px;position:relative;background:url(../images/submain.png) no-repeat 50% 0}
+.visual_wrap{width:100%;min-width:1280px;height:800px;position:relative;background:url(../images/submain.png) no-repeat 50% 0 / cover}
 
 .visual{text-align:center;padding-top:250px;background:url(../images/h1_logo.png) no-repeat center 170px}
 .visual h2{font-size:0;background:url(../images/subpoint.png) no-repeat center 140px;padding-bottom:130px}
@@ -56,7 +57,7 @@
 .intro_h3{font-size:42px;height:42px;line-height:42px;text-align:center;margin-bottom:60px;font-weight:400;color:#83654c}
 .intro_text{font-size:14px;line-height:24px;text-align:center;color:#777;margin-bottom:30px;font-weight:400}
 
-.intro_bottom_wrap{width:100%;min-width:1280px;margin-top:80px;height:450px;position:relative;background:url(../images/sub_info.png) no-repeat 0 0 fixed}
+.intro_bottom_wrap{width:100%;min-width:1280px;margin-top:80px;height:450px;position:relative;background:url(../images/sub_info.png) no-repeat 0 0 fixed;background-size:cover}
 .intro_bottom{width:1280px;height:450px;margin:0 auto;padding-top:50px}
 .intro_bottom h3{font-size:36px;text-align:center;color:#fff;font-weight:400;position:relative}
 .intro_bottom h3:before,.intro_bottom h3:after{content:'';width:500px;height:1px;position:absolute;top:50%;background-color:#fff}
